@@ -1,6 +1,46 @@
-__pycache__/
-*.pyc
+# CMake build directories
+cmake-build-*/
+build/
+out/
+
+# CLion IDE settings
+.idea/
+
+# Compiled files
+*.exe
+*.out
+*.app
+*.o
+*.so
+*.dylib
+*.a
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+Testing/
+
+# macOS system files
 .DS_Store
-.ipynb_checkpoints/
-venv/
-.env
+.AppleDouble
+.LSOverride
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.swp
+*.swo
+*~
+.tmp
+
+# Logs
+*.log
